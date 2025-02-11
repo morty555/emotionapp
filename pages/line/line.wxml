@@ -1,0 +1,22 @@
+<!--pages/line/line.wxml-->
+<image src="/images/green.png" class="background"></image>
+<view>
+<image src="/images/white.png" class="num1"></image>
+<button class="phone-button1" bindtap="makePhoneCall1">{{call1}}</button>
+<text class="hotline1">中国心理危机救助热线:</text>
+</view>
+<view>
+<image src="/images/white.png" class="num2"></image>
+<button class="phone-button2" bindtap="makePhoneCall2">{{call2}}</button>
+<text class="hotline2">希望24热线:</text>
+</view>
+<view>
+<image src="/images/white.png" class="num3"></image>
+<button class="phone-button3" bindtap="makePhoneCall3">{{call3}}</button>
+<text class="hotline3">全国青少年心理咨询热线:</text>
+</view>
+<view>
+<image src="/images/white.png" class="num4"></image>
+<button class="phone-button4" bindtap="makePhoneCall4">{{call4}}</button>
+<text class="hotline4">全国心理卫生热线:</text>
+</view>

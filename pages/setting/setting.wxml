@@ -1,0 +1,10 @@
+<view class="usercontainer">
+   <view class="info">
+    <view class="info-font">小程序已获取的信息</view>
+    <van-icon name="arrow" size="20px" color="#333333" bind:tap="toPersonDetail" class="infoarrow"/>
+   </view>
+   <view class="record">
+    <view class="record-font">个人信息与权限使用记录</view>
+    <van-icon name="arrow" size="20px" color="#333333" bind:tap="toPersonDetail" class="recordarrow"/>
+   </view>
+</view>

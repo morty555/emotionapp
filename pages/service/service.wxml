@@ -1,0 +1,31 @@
+<image src="/images/green.png" class="background"></image>
+<view>
+  <image src="/images/white.png" class="function1"></image>
+  <text class="healthtools">健康工具</text>
+  <image src="/images/elecmap.jpg" class="elecmap" bind:tap="tomap"></image>
+  <text class="elecmaptext">监测曲线</text>
+</view>
+
+<view>
+  <image src="/images/white.png" class="function2"></image>
+  <text class="emergency">紧急呼救</text>
+ 
+  <image src="/images/sos.png" class="emergencycall" bind:tap="tocall"></image>
+  <text class="emergencycalltext" >紧急联系人</text>
+
+  <image src="/images/location.jpg" class="location"></image>
+  <text class="locationtext">地图定位</text>
+</view>
+
+<view>
+  <image src="/images/white.png" class="function3"></image>
+  <text class="othertools">其他工具</text>
+  <image src="/images/dairy.jpg" class="dairy" 
+  bind:tap="todairy"></image>
+  <text class="dairytext">心理日记</text>
+
+  <image src="/images/hotline.jpeg" class="mentalcall"  bind:tap="toline"></image>
+  <text class="mentalcalltext">心理热线</text>
+</view>
+
+

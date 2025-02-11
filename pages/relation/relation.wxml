@@ -1,0 +1,10 @@
+<view class="usercontainer">
+   <view class="policy">
+    <view class="policy-font">隐私政策</view>
+    <van-icon name="arrow" size="20px" color="#333333" bind:tap="toPersonDetail" class="policyarrow"/>
+   </view>
+   <view class="deal">
+    <view class="deal-font">用户协议</view>
+    <van-icon name="arrow" size="20px" color="#333333" bind:tap="toPersonDetail" class="dealarrow"/>
+   </view>
+</view>

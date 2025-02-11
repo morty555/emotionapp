@@ -1,0 +1,6 @@
+.diary-detail{
+  font-size: large;
+  color: #8B4513;
+  /* 多文本自动换行 */
+  word-break:break-all;
+}

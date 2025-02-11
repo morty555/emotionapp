@@ -1,0 +1,3 @@
+<view class="diary-detail">
+    <text>{{showContent}}</text>
+</view>

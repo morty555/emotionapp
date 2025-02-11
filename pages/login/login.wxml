@@ -1,0 +1,25 @@
+<view class="title">
+{{TitleText}}
+</view>
+
+<view class="inputBox">
+<input type="text" placeholder="请输入用户名" data-id="user" bindinput="getinput"  value="{{userValue}}" placeholder-style="color:#ccc8c8" />
+</view>
+
+<view class="inputBox">
+<input type="text" placeholder="请输入密码" data-id="password" bindinput="getinput"  value="{{passwordValue}}" placeholder-style="color:#ccc8c8" />
+</view>
+
+<view class="btn">
+<van-button type="primary" round block color="#40ae36" disabled="{{btnState}}" bind:tap="login">{{btnText}}</van-button>
+</view>
+
+<view class="toRegister" bind:tap="change">
+<view class="btntTip">{{ToText}}</view>
+<van-icon name="arrow" size="16px"/>
+</view>
+
+<view class="bottom" wx:if="{{TitleText=='登录'}}">
+<view class="tip">其他登录方式</view>
+<image src="/images/wx.png" mode=""/>
+</view>

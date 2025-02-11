@@ -1,0 +1,239 @@
+
+.parent_view{
+  position: relative;
+  z-index: 1;
+}
+
+.view1{
+  position: absolute;
+  z-index: 2; 
+  width: 100%; 
+  height:1300rpx
+}
+
+.view2{
+  position: absolute;
+  z-index: 3;
+  margin-top: 170rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  border-radius: 5%;
+  width: 90%;
+   height: 100px;
+   opacity:0.5;
+}
+.view2-text{
+  position: absolute;
+  z-index:100;
+  margin-top: 170rpx;
+  margin-left: 60rpx;
+}
+
+.view3{
+  position: absolute;
+  z-index: 4;
+  margin-top: 300rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  overflow: hidden;
+  border-radius: 5%;
+  width: 90%;
+   height: 250px;
+   opacity:1;
+
+}
+.view3-text{
+  position: absolute;
+  z-index:101;
+  margin-top: 300rpx;
+  margin-left: 60rpx;
+}
+
+.view4{
+  position: absolute;
+  z-index: 5;
+  margin-top: 800rpx;
+  margin-left: 40rpx;
+  overflow: hidden;
+  border-radius: 5%;
+  width: 90%; 
+  height: 250px;
+  opacity:1;
+}
+
+.cute{
+  position: absolute;
+  z-index: 100;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.wenzi{
+  position: absolute;
+  z-index: 100;
+  width:200rpx;
+  margin-left: 110rpx;
+  margin-top: 5rpx;
+  font-size: 12px;
+}
+
+.stagei{
+  position: absolute;
+  z-index: 100;
+  width:200rpx;
+  margin-left: 110rpx;
+  margin-top: 200rpx;
+  font-size: 12px;
+}
+.stageivalue{
+  position: absolute;
+  z-index: 100;
+  width:200rpx;
+  margin-left: 170rpx;
+  margin-top: 80rpx;
+  font-size: 30px;
+}
+.stageichange{
+  position: absolute;
+  z-index: 100;
+  width:200rpx;
+  margin-left: 400rpx;
+  margin-top: 200rpx;
+  font-size: 12px;
+}
+.stageichangevalue{
+  position: absolute;
+  z-index: 100;
+  width:200rpx;
+  margin-left: 440rpx;
+  margin-top: 80rpx;
+  font-size: 30px;
+}
+.buttonelec{
+  position: absolute;
+  z-index: 100;
+  top:300rpx;
+  left:25rpx;
+  width:500rpx;
+}
+
+.punchintitletext{
+  position: absolute;
+  z-index: 101;
+  width:250rpx;
+  margin-left: 150rpx;
+  margin-top: 820rpx;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color:#FF69B4;
+}
+.touchhead{
+  position: absolute;
+  z-index: 101;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 50rpx;
+  margin-top: 820rpx;
+}
+.punchin1image{
+  position: absolute;
+  z-index: 101;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 80rpx;
+  margin-top: 930rpx;
+}
+.punchin1text1{
+  position: absolute;
+  z-index: 101;
+  margin-left: 190rpx;
+  margin-top: 920rpx;
+  font-size: 13px;
+}
+.punchin1text1small{
+  position: absolute;
+  z-index: 101;
+  margin-left: 180rpx;
+  margin-top: 970rpx;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+.punchin1button{
+  position: absolute;
+  z-index: 101;
+  margin-left: 430rpx;
+  margin-top: 910rpx;
+  left:25rpx;
+  width:200rpx;
+  font-size: white;
+}
+.punchin1box{
+  
+}
+.punchin2image{
+  position: absolute;
+  z-index: 101;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 80rpx;
+  margin-top: 1060rpx;
+}
+.punchin2text1{
+  position: absolute;
+  z-index: 101;
+  margin-left: 190rpx;
+  margin-top: 1050rpx;
+  font-size: 13px;
+}
+.punchin2text1small{
+  position: absolute;
+  z-index: 101;
+  margin-left: 180rpx;
+  margin-top: 1100rpx;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+.punchin2button{
+  position: absolute;
+  z-index: 101;
+  margin-left: 430rpx;
+  margin-top: 1050rpx;
+  left:25rpx;
+  width:200rpx;
+  font-size: white;
+}
+.punchin2box{
+}
+.slider1{
+  position: absolute;
+  z-index: 101;
+  margin-top: 1010rpx;
+  margin-left: 220rpx;
+  width: 100rpx;
+  size:2px;
+}
+.slider2{
+  position: absolute;
+  z-index: 101;
+  margin-top: 1150rpx;
+  margin-left: 220rpx;
+  width: 100rpx;
+  size:2px;
+}
+.slider1text{
+  position: absolute;
+  z-index: 101;
+  margin-top: 1000rpx;
+  margin-left: 350rpx;
+  font-size: 10px;
+}
+.slider2text{
+  position: absolute;
+  z-index: 101;
+  margin-top: 1140rpx;
+  margin-left: 350rpx;
+  font-size: 10px;
+}

@@ -1,0 +1,31 @@
+<view class="usercontainer">
+   <view class="userbox">
+      <image class="pic" src="/images/myself.png" mode="" />
+      <view class="usercenter">
+             <view class="title">{{personname}}</view>
+             <view class="person_text">{{persontext}}</view>
+      </view>
+      <van-icon name="arrow" size="20px" color="#333333" bind:tap="toPersonDetail"/>
+   </view>
+   <view class="setting" bind:tap="tosetting">
+    <van-icon name="setting-o" size="30px"/>
+    <view class="setting-font">设置</view>
+   </view>
+   <view class="relation" bind:tap="torelation">
+    <van-icon name="question-o" size="30px"/>
+    <view class="relation-font">关于</view>
+   </view>
+   <view class="readme" bind:tap="toreadme">
+    <van-icon name="comment-o" size="30px"/>
+    <view class="readme-font">使用须知</view>
+   </view>
+   <!-- <view class="denglu">
+    <van-icon name="comment-o" size="30px"/>
+    <view class="denglu-font" style="width: 200rpx;">登录</view> -->
+   <!-- <van-button type="primary" style="width: 100%;" 
+    onclick="toLogin">跳转</van-button> -->
+   <!-- </view> -->
+</view>
+<view class="btn" bind:tap="clickbtn">
+  <van-button round type="info" size="large" color="#40ae36"    bindtap="{{statefunction}}">{{state}}</van-button>
+</view>

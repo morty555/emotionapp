@@ -1,0 +1,8 @@
+<!--输入框-->
+<view class="the-view">
+  <!-- 输入长度默认限制为140，maxlength为-1时表示不限制最大长度 -->
+  <textarea class= "the-textarea"  bindinput="getInputText" style="  margin: 5%;width: 90%;height: 90%" maxlength="-1">
+  </textarea>
+  <!-- 保存按钮 -->
+  <button class="the-btn" bindtap="saveButton">保存心情</button>
+</view>

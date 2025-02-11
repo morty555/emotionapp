@@ -1,0 +1,24 @@
+<!-- 背景图片 -->
+<!-- 放在最上面，否则无法显示 -->
+<!-- 加本地背景图片容易导致代码包大小超限，可以选择网络图片 -->
+<image class="bg-image" mode="scaleToFill" src="/images/backpink.jpg"></image>
+
+<!--底部滚动-->
+<scroll-view class="des-scr" scroll-y="true">
+  <!--循环显示所有日记内容-->
+  <block wx:for="{{totalDiaryConcent}}">
+  <!-- 利用data-将当前的索引传递到删除或者打开详情的函数 -->
+      <view class="des-view" bindtap="diary_detail" bindlongtap="delet" data-content="{{item}}" data-saveid="{{index}}">
+        <text class="des-text">{{item.des}}（长按可删除日记）</text>
+        <text class="des-tiemText">{{index + 1}}</text>
+      </view>
+    <!-- </navigator> -->
+  </block>
+</scroll-view>
+
+<!--添加按钮-->
+
+    <button class="new-btn" 
+    style="width: 220rpx; height: 93rpx; display: block; box-sizing: border-box; left: 466rpx; top: 1171rpx; position: absolute" bind:tap="toadddiary">+</button>
+
+

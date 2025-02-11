@@ -1,0 +1,21 @@
+<view class="personDetailContainer">
+  <view class="one">
+       <view class="personicon">个人头像</view>
+       <image class="personalpic" src="{{pic}}" mode="" />
+  </view>
+  <view class="two">
+       <view class="personName">用户名</view>
+       <input type="inputText" value="{{username}}" data-id="username" bindinput="input_msg"/>
+  </view>
+  <view class="two">
+       <class class="phoneNumber">手机号</class>
+       <input type="text" value="{{iphone}}" data-id="iphone" bindinput="input_msg"/>
+  </view>
+  <view class="two">
+       <class class="personalized">个性签名</class>
+       <input type="text" value="{{personalized}}" data-id="personalized" bindinput="input_msg"/>
+  </view>
+  <view class="btn">
+    <van-button round type="info" size="large" color="#40ae36"  disabled="{{disabled}}">提交修改</van-button>
+  </view>
+</view>

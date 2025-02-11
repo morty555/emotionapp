@@ -1,0 +1,62 @@
+page{
+  background: #f8f9fa;
+}
+
+.personalDetailContainer{
+  margin:20rpx 20rpx 0;
+}
+
+.one{
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 20rpx;
+  background:#ffffff;
+  border-radius: 20rpx;
+}
+
+.personalpic{
+  width:130rpx;
+  height: 130rpx;
+  border-radius: 20rpx;
+}
+
+.personicon{
+  font-size: 38rpx;
+  font-weight: 600;
+  color:#333333;
+}
+
+.two{
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 20rpx;
+  background:#ffffff;
+  border-radius: 20rpx;
+}
+.two input{
+    text-align: right;
+
+
+}
+.personName{
+  font-size: 38rpx;
+  font-weight: 600;
+  color:#333333;
+}
+.phoneNumber{
+  font-size: 38rpx;
+  font-weight: 600;
+  color:#333333;
+}
+.personalized{
+  font-size: 38rpx;
+  font-weight: 600;
+  color:#333333;
+}
+.btn{
+  margin-top: 20rpx;
+}

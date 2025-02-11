@@ -1,0 +1,71 @@
+<view class="parent_view">
+
+    <image src="/images/backg.jpg" class="view1"></image>
+
+ 
+    <image src="/images/white.png"  class="view2"></image>
+  
+    <view class="view2-text">
+      <text>
+    {{time}}
+    </text>
+  </view>
+ 
+    <image src="/images/white.png" class="view3"></image>
+
+  <view class="view3-text">  
+         <image src="/images/cute.jpg" class="cute"></image>
+         <text class="wenzi">
+         今日状态
+         </text>
+         <text class="stagei">
+         皮肤电强度(µS)
+         </text>
+         <text class="stageivalue">
+         --
+         </text>
+         <text class="stageichange">
+         变化率(µS)
+         </text>
+         <text class="stageichangevalue">
+         --
+         </text>
+         <van-button round type="primary"    size="large" style="margin-left: 35rpx; " class="buttonelec" bind:tap="tobluetooth">检测</van-button>
+  </view>
+ 
+    <image src="/images/white.png" class="view4"></image>
+ 
+  <view class="view4-text">
+  <image src="/images/touchhead.png" class="touchhead">
+  </image>
+  <text class="punchintitletext">
+    今天也要好好生活哦
+   </text> 
+   <view class="punchin">
+   <image src="/images/healthcare.jpg"   class="punchin1image"></image>
+   <view class="punchin1box">
+   <text class="punchin1text1">心情舒畅</text>
+   <text class="punchin1text1small">今天又是开心的一天</text>
+
+<view class="punchin1button">
+   <van-button type="info" round size="large"  bind:tap="punchin1" disabled="{{isDisabled1}}">打卡</van-button>
+  </view>
+  <van-progress color="#00FF00" percentage="{{percentage1*3.33}}" stroke-width="3" pivot-text="0" class="slider1"/>
+  <text class="slider1text">{{percentage1}}/30</text>
+
+   <image src="/images/sleep.jpg"   class="punchin2image"></image>
+   <view class="punchin2box">
+   <text class="punchin2text1">健康作息</text>
+   <text class="punchin2text1small">早睡早起保持作息</text>
+   <van-button type="info" round size="large" class="punchin2button" bind:tap="punchin2" disabled="{{isDisabled2}}">打卡</van-button>
+
+   <van-progress color="#00FF00" percentage=
+   "{{percentage2*3.33}}"  stroke-width="3" pivot-text="0" class="slider2"/>
+   <text class="slider2text">{{percentage2}}/30</text>
+  </view>
+   </view>
+  </view>
+</view>
+</view>
+
+
